@@ -1,2 +1,2 @@
-# zoi-java-sdk
-Java SDK to integrate Zoho office suite editors in to web applications.
+# Zoho Office Integrator Java SDK Examples
+This code repository showcases examples that illustrate the utilization of the Java SDK for Zoho Office Integrator in order to engage with Office Suite Editors.
