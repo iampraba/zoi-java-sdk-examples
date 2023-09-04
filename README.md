@@ -18,7 +18,7 @@ JAVA SDK requires Java (version 8 and above) to be set up in your development en
 
 Java SDK is included in this project through Maven distribution. You can include the SDK to your project using:
 
-1. Maven
+1. **Maven**
 
     - pom.xml file.
 
@@ -38,7 +38,7 @@ Java SDK is included in this project through Maven distribution. You can include
     </dependencies>
     ```
 
-2. Gradle
+2. **Gradle**
 
     ```gradle
     repositories{
@@ -48,6 +48,10 @@ Java SDK is included in this project through Maven distribution. You can include
         implementation 'com.zoho.officeintegrator:zoi-java-sdk:1.0.0'
     }
      ```
+
+3. **Download and Bundle SDK Jar in your project**
+   
+   [zoi-java-sdk-1.0.0.jar](https://maven.zohodl.com/com/zoho/officeintegrator/zoi-java-sdk/1.0.0/zoi-java-sdk-1.0.0.jar) - Please download this jar and include along with the following dependency jars in your project to run Office Integrator java sdk on your application.
 
 ### Dependency JARs
 
