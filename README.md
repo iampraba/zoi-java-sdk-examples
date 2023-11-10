@@ -5,6 +5,7 @@
 * [Overview](#overview)
 * [Environmental Setup](#environmental-setup)
 * [Including the SDK in your project](#including-the-sdk-in-your-project)
+* [How to run the sample code?](#how-to-run-the-sample-code)
 
 ## Overview
 
@@ -71,3 +72,42 @@ Java SDK is included in this project through Maven distribution. You can include
 
 [opencsv-5.0.jar](https://mvnrepository.com/artifact/com.opencsv/opencsv/5.0)
 
+
+4. **How to run the sample code?**
+
+## To run from Mac Terminal
+   - Clone this project using following command.
+   ```sh
+   git clone https://github.com/iampraba/zoi-java-sdk-examples.git
+   ```
+   - Go to project folder
+
+   ```sh
+   cd zoi-java-sdk-example
+   ```
+   - Run following following command to download dependencies and complete the sample code
+
+   ```sh
+   mvn compile
+   ```
+   - Run your sample code
+
+   ```sh
+   mvn exec:java -Dexec.mainClass=<Main class name with package name>
+   ```
+
+   e.g to run create document sample code
+
+   ```sh
+   mvn exec:java -Dexec.mainClass=com.zoho.officeintegrator.v1.examples.writer.CreateDocument
+   ```
+ 
+## To run from your favourite java supported IDE
+
+    - Clone this project using following command.
+
+   ```sh
+   git clone https://github.com/iampraba/zoi-java-sdk-examples.git
+   ```
+
+    - Open above cloned project in your IDE, download dependencies mentioned in maven pom.xml and run the sample java code
